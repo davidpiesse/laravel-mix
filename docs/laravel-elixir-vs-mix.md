@@ -4,7 +4,7 @@ You may be aware that a tool called Laravel Elixir has existed for some time now
 
 #### 1. Laravel Mix is built on top of Webpack, not Gulp.
 
-The most significant change is our switch over to Webpack as a base, rather than Gulp. This allows for, not just more power and flexibility, but also a simpler and more configurable \(should you need it\) codebase. Please note that all Laravel Elixir plugins assume and use Gulp. Because Laravel Mix uses Webpack and not Gulp, all Laravel Elixir plugins wouldn't work with it. That is why we changed the name, to avaid confusion. On the other hand, Laravel Mix will have no need for plugins, since you may freely edit your `webpack.config.js` file.
+The most significant change is our switch over to Webpack as a base, rather than Gulp. This allows for, not just more power and flexibility, but also a simpler and more configurable \(should you need it\) codebase. Please note that all Laravel Elixir plugins assume and use Gulp. Because Laravel Mix uses Webpack and not Gulp, all Laravel Elixir plugins wouldn't work with it. That is why we changed the name, to avoid confusion. On the other hand, Laravel Mix will have no need for plugins, since you may freely edit your `webpack.config.js` file.
 
 #### 2. Your gulpfile.js will now be webpack.mix.js
 
